@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rodrigo Morgado | Self Improvement & Business</title>
+    <!-- <meta name="description" content="Website de Rodrigo Morgado | Self Improvement & Business"> -->
+    <link rel="icon" href="assets/images/rodrigo-morgado.jpg" type="image/jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Lora:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="assets/styles/main.css"> 
+    <script src="assets/scripts/main.js"></script>
+</head>
+<body>
+
+    <div id="loading-overlay" class="loading-overlay">
+        <div class="spinner"></div>
+    </div>
+
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo">
+                <a href="#hero" class="logo-link">RODRIGO MORGADO</a>
+            </h1>
+            <button class="nav-toggle" aria-label="Abrir Menu">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="main-nav">
+                <ul class="nav-list">
+                    <!-- <li><a href="#about" class="nav-link">Sobre</a></li> -->
+                    <li><a href="#resources" class="nav-link">Recursos</a></li>
+                    <li><a href="#youtube" class="nav-link">Vídeos</a></li>
+                    <li><a href="#contact" class="nav-link">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content container">
+                <div class="hero-text-area">
+                    <span class="intro-tag">FROM PORTUGAL</span>
+                    <h2 class="name-title">Rodrigo Morgado</h2>
+                    <h3 class="profession-subtitle">Self Improvement & Business</h3>
+                    <!-- <p class="tagline">A construir algo diferente em Portugal.</p> -->
+                    <!-- <a href="#about" class="btn btn-primary hero-cta">Comece a Transformação Hoje</a> -->
+                    
+                    <div class="social-links-hero">
+                        <a href="https://youtube.com/@rodrigoomorgado" target="_blank" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://instagram.com/rodrigomrgdo" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div class="hero-image-container">
+                    <img src="assets/images/rodrigo-morgado.jpg" alt="Fotografia Profissional de Rodrigo Morgado" class="profile-photo-hero">
+                </div>
+            </div>
+        </section>
+
+        <!-- <section id="about" class="about-section section-padding bg-dark-teal">
+            <div class="container content-grid">
+                <div class="about-text">
+                    <h2 class="section-title">A Metodologia que Transforma</h2>
+                    <p class="lead-paragraph">Não apenas inspiração, mas **Ação Estratégica**. A minha abordagem combina a ciência da produtividade com a aplicação prática no mundo dos negócios e na marca pessoal.</p>
+                    <p>O sucesso é um sistema. Trabalho consigo para **desmantelar o auto-sabotagem** e instalar **modelos mentais** que o colocam no controlo do seu destino. Se procura resultados além do comum, está no sítio certo.</p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-number">10K+</span>
+                            <p class="stat-label">Alunos Impactados</p>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <p class="stat-label">Anos de Mentoria</p>
+                        </div>
+                    </div>
+                    <a href="#resources" class="btn btn-secondary mt-4">Descubra os Meus Programas</a>
+                </div>
+                <div class="about-image-placeholder">
+                    <img src="assets/images/rodrigo-morgado-em-acao-dark.jpg" alt="Rodrigo Morgado em sessão de coaching ou palestra." class="img-fluid elegant-shadow">
+                </div>
+            </div>
+        </section> -->
+
+        <section id="resources" class="resources-section section-padding">
+            <div class="container">
+                <h2 class="section-title text-center">RECURSOS DE ALTA PERFORMANCE</h2>
+                <div class="resource-grid">
+                    
+                    <div class="resource-card card-teal">
+                        <i class="fas fa-graduation-cap icon-large"></i>
+                        <h3>Dropshiping</h3>
+                        
+                        <a href="https://www.youtube.com/watch?v=kZ1rezXNZrg&list=PLZSUbLHdda_AADETmHGglikp9mpICDyrL&pp=gAQB" class="btn btn-outline-teal btn-small">Aceder ao Programa <i class="fas fa-arrow-right ml-2"></i></a>
+                    </div>
+
+                    <div class="resource-card card-teal">
+                        <i class="fas fa-video icon-large"></i>
+                        <h3>Vídeos</h3>
+                        <a href="https://www.youtube.com/@RodrigooMorgado/videos" class="btn btn-outline-teal btn-small">Assistir <i class="fas fa-arrow-right ml-2"></i></a>
+                    </div>
+
+                    <!-- <div class="resource-card card-teal">
+                        <i class="fas fa-microphone icon-large"></i>
+                        <h3>Speaker/Eventos Corporativos</h3>
+                        <a href="#contact" class="btn btn-outline-teal btn-small">Reservar Data <i class="fas fa-arrow-right ml-2"></i></a>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+        <section id="youtube" class="youtube-section section-padding bg-darker">
+            <div class="container">
+                <h2 class="section-title text-center text-light">ÚLTIMOS VÍDEOS</h2>
+                <div class="video-grid" id="video-grid">
+                    <p class="loading-message">A carregar vídeos...</p>
+                </div>
+                <br>
+                <div class="text-center mt-5">
+                    <a href="https://www.youtube.com/channel/SEU_CANAL_ID" target="_blank" class="btn btn-secondary">Ver Canal Completo <i class="fab fa-youtube ml-2"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section section-padding">
+            <div class="container text-center">
+                <h2 class="section-title text-light">PRÓXIMO NÍVEL, AGORA</h2>
+                <p class="section-subtitle text-light" style="text-align: center;">Os campos com <strong>*</strong> são de prenchimento obrigatório.</p>
+                
+                <form class="contact-form" action="https://formspree.io/f/mldppwea" method="POST">
+                    <div class="form-group-double">
+                        <input type="text" name="RodrigoMorgado_FormName" placeholder="Nome*" required>
+                        <input type="email" name="RodrigoMorgado_FormEmail" placeholder="Email*" required>
+                    </div>
+                    <div class="form-group-double">
+                        <input type="text" name="subject" placeholder="Assunto*" required>
+                        <input type="text" name="RodrigoMorgado_FormPhone" placeholder="Telefone">
+                    </div>
+                    <div class="form-group">
+                        <textarea name="RodrigoMorgado_FormMessage" rows="6" placeholder="Mensagem*" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">Enviar Pedido de Contacto</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container">
+            <a href="https://makyneta.github.io">Copyright &copy; 2025 Makyneta Stuios, Lda. Todos os direitos reservados.</a>
+    </footer>
+</body>
+</html>
